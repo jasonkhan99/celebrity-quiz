@@ -3,6 +3,7 @@
   <head>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+    <!-- inster jss link -->
     <title>Document</title>
   </head>
   <body>
@@ -12,13 +13,12 @@
         <h4>Which celebrity would you be most compatible with?</h4>
       </div>
       <p>Answer these questions and press submit to find out which Celebrity you would date.</p>
+
       <div id="form">
-        <h3>What is your favorite beverage?</h3>
-        <select class="form-control" id=beverage>
-          <option id="ryan">Coffee</option>
-          <option id="george">Juice</option>
-          <option id="brad">Whiskey</option>
-        </select>
+        <div class="form-group">
+          <label for="age">What is your age?</label>
+          <input id="age" class="form-control" type="text">
+        </div>
 
         <h3>Where is your dream vacation?</h3>
         <select class="form-control" id=vacation>
@@ -41,12 +41,6 @@
           <option id="brad">Snowing</option>
         </select>
 
-        <h3>What kind of movies do you like?</h3>
-        <select class="form-control" id=movie>
-          <option id="brad">Action</option>
-          <option id="ryan">Comedy</option>
-          <option id="george">Drama</option>
-        </select>
         <button type="submit" class="btn">Submit</button>
       </div>
     </div>
