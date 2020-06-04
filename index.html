@@ -3,8 +3,9 @@
   <head>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
-    <!-- inster jss link -->
-    <title>Document</title>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebrity Dating Quiz</title>
   </head>
   <body>
     <div class="container">
@@ -14,7 +15,7 @@
       </div>
       <p>Answer these questions and press submit to find out which Celebrity you would date.</p>
 
-      <div id="form">
+      <form id="quiz">
         <div class="form-group">
           <label for="age">What is your age?</label>
           <input id="age" class="form-control" type="text">
@@ -22,23 +23,23 @@
 
         <h3>Where is your dream vacation?</h3>
         <select class="form-control" id=vacation>
-          <option id="george">Paris</option>
-          <option id="brad">London</option>
-          <option id="ryan">The Amazon</option>
+          <option value="1" id="george">Paris</option>
+          <option value="1" id="brad">London</option>
+          <option value="1" id="ryan">The Amazon</option>
         </select>
 
         <h3>What is your favorite Animal</h3>
         <select class="form-control" id=animal>
-          <option id="george">Tiger</option>
-          <option id="brad">Dog</option>
-          <option id="ryan">Cat</option>
+          <option value="1" id="george">Tiger</option>
+          <option value="1" id="brad">Dog</option>
+          <option value="1" id="ryan">Cat</option>
         </select>
 
         <h3>What kind of weather do you like?</h3>
         <select class="form-control" id=weather>
-          <option id="ryan">Sunny</option>
-          <option id="george">Rainy</option>
-          <option id="brad">Snowing</option>
+          <option value="1" id="ryan">Sunny</option>
+          <option value="1" id="george">Rainy</option>
+          <option value="1" id="brad">Snowing</option>
         </select>
 
         <button type="submit" class="btn">Submit</button>
